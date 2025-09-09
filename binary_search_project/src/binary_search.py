@@ -51,7 +51,7 @@ def time_search():
         )
         linear_times.append(
             linear_search_times / repeat[i] * 1000
-        )  # Среднее время в миллисекундах
+        )
     return sizes, binary_times, linear_times
 
 
